@@ -3,12 +3,12 @@ import App from './App';
 
 test('displays test on screen', () => {
   render(<App />);
-  const stringElement = screen.getByText('Welcome, Patrick.');
+  const stringElement = screen.getByText('Welcome back, Patrick.');
   expect(stringElement).toBeInTheDocument();
 });
 
 test('displays test on screen', () => {
   render(<App />);
-  const stringElement = screen.getByText('Welcome, Patrick.');
+  const stringElement = screen.getByText('Welcome back, Patrick.');
   expect(stringElement).toBeInTheDocument();
 });
